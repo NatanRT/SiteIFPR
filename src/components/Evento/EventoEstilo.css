@@ -1,0 +1,61 @@
+.Evento{
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    background-color: rgb(228, 225, 225);
+}
+
+.Evento h1,p{
+    font-size: xx-large;
+    margin: 10px;
+    
+}
+
+.GridEvento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.Imagens{
+    height: auto;
+    width: 80%;
+}
+
+.Imagens img{
+    height: 100px;
+    width: 100px;
+}
+
+.EventoItems{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-size:x-large;
+}
+
+.EventoItems button{
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.EventoItems li{
+    padding-top: 20px;
+}
+
+.Parcerias img{
+    justify-content: space-between;
+    height: 50px;
+    width: 150px;
+}
